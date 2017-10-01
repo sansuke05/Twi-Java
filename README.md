@@ -28,7 +28,7 @@ Right click jar->Add as library
          twitter.tweet("Hello TwiJava World");
 ```  
 #### Get UserTimeline
-```Java
+```Java:sample.java
    twitter.getHomeTimeLine(100,false); //Integer is tweet count.boolean is json parse mode enable/disable 
 ```
 If you want to parse json

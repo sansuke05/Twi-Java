@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/language-java%208-orange.svg)  [![](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/ItinoseSan/Twi-Java/blob/master/TwitterAPI/LICENCE) [![Build Status](https://travis-ci.org/ItinoseSan/Twi-Java.svg?branch=master)](https://travis-ci.org/ItinoseSan/Twi-Java)
 
-# Twi-Java
+# Twi-Java-JsonParse branch
 TwitterAPI wrapper library for Java
 
 # The content relations pull request
@@ -29,11 +29,17 @@ Right click jar->Add as library
 ```  
 #### Get UserTimeline
 ```Java
-   twitter.getHomeTimeLine(100); //Integer is tweet count 
+   twitter.getHomeTimeLine(100,false); //Integer is tweet count.boolean is json parse mode enable/disable 
 ```
+If you want to parse json
+```Java
+   twitter.getHomeTimeLine(100,true); 
+```
+
 #### Get HomeTimeline
 ```Java
-   twitter.getUserTimeLine(100); 
+   twitter.getUserTimeLine(100,false);
+   twitter.getUserTimeLine(100,true);
 ```
 # LICENCE
 ```

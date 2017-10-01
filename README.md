@@ -6,12 +6,12 @@ TwitterAPI wrapper library for Java
 # The content relations pull request
 I welcome it.but if you pullrequest to this repository,you should write description of pullrequest content in English.
 # Installation
-### 1.Download Twijava1.0.0.jar
+### 1.Download Twijava1.0.1.jar
 ### 2.Twi-Java jar add as library your Java application
 #### Gradle ver
 ```build.gradle
 dependencies {
-    compile 'TwiJava1.0.0'
+    compile 'TwiJava1.0.1'
 }
 ```
 #### Standard installation(IntelliJ IDEA,Android Studio)

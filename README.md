@@ -37,7 +37,7 @@ If you want to parse json
 ```
 
 #### Get HomeTimeline
-```Java
+```Java:
    twitter.getUserTimeLine(100,false);
    twitter.getUserTimeLine(100,true);
 ```
